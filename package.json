@@ -40,6 +40,6 @@
     "validate-commit-message": "^3.0.1"
   },
   "dependencies": {
-    "zelda-js": "1.2.0"
+    "zelda-js": "1.2.2"
   }
 }
