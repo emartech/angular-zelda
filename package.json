@@ -34,6 +34,7 @@
     "chai": "^3.5.0",
     "eslint": "^2.2.0",
     "eslint-config-emarsys": "^3.0.0",
+    "eslint-plugin-security": "^1.2.0",
     "mocka": "0.0.1",
     "pre-commit": "^1.1.2",
     "semantic-release": "^4.3.5",
