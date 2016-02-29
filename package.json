@@ -9,6 +9,11 @@
     "validate-commit-msg": "validate-commit-msg",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
+  "release": {
+    "verifyConditions": {
+      "path": "./node_modules/semantic-release/dist/lib/plugin-noop.js"
+    }
+  },
   "keywords": [
     "angular",
     "zelda"
