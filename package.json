@@ -3,8 +3,8 @@
   "description": "Angular Zelda",
   "main": "dist/index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha $(find . -name \"*.spec.js\" -not -path \"./node_modules/*\") --compilers js:babel-register",
-    "code-style": "eslint $(find . -name \"*.js\" -not -path \"./node_modules/*\")",
+    "test": "NODE_ENV=test mocha $(find . -name \"*.spec.js\" -not -path \"./node_modules/*\" -not -path \"./dist/*\") --compilers js:babel-register",
+    "code-style": "eslint $(find . -name \"*.js\" -not -path \"./node_modules/*\" -not -path \"./dist/*\")",
     "build": "rm -rf dist/* && babel lib --ignore *.spec.js --out-dir dist --source-maps",
     "validate-commit-msg": "validate-commit-msg",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
