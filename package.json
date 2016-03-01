@@ -45,7 +45,7 @@
     "semantic-release": "^4.3.5",
     "validate-commit-message": "^3.0.1"
   },
-  "dependencies": {
-    "zelda-js": "1.2.2"
+  "peerDependencies": {
+    "zelda-js": "1.x"
   }
 }
