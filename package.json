@@ -46,6 +46,6 @@
     "validate-commit-message": "^3.0.1"
   },
   "peerDependencies": {
-    "zelda-js": "3.x"
+    "zelda-js": "3.2.0"
   }
 }
